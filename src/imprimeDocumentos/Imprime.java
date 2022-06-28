@@ -1,5 +1,7 @@
 package imprimeDocumentos;
 
 public interface Imprime {
-    public void imprimir(Documento doc);
+    public static void imprimir(Documento doc) {
+        System.out.println(doc.print());
+    }
 }
