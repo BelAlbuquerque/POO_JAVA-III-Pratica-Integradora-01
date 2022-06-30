@@ -1,6 +1,9 @@
-package animais;
+package animais.model;
 
-public class Gato extends Animal implements Carnivoro{
+import animais.model.Animal;
+import animais.util.Carnivoro;
+
+public class Gato extends Animal implements Carnivoro {
     public Gato(String nome, String som) {
         super(nome, som);
     }

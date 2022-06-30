@@ -1,4 +1,4 @@
-package animais;
+package animais.model;
 
 public abstract class Animal {
     private String nome;

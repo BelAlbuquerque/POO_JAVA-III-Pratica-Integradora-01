@@ -1,5 +1,9 @@
 package animais;
 
+import animais.model.Cachorro;
+import animais.model.Gato;
+import animais.model.Vaca;
+
 public class AppAnimais {
     public static void main(String[] args) {
         Cachorro cachorro = new Cachorro("Odara", "Auf, auf");

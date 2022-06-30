@@ -1,4 +1,6 @@
-package animais;
+package animais.util;
+
+import animais.model.Animal;
 
 public interface Herbivoro {
     public default void comerPasto(Animal animal) {

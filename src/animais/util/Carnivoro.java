@@ -1,4 +1,6 @@
-package animais;
+package animais.util;
+
+import animais.model.Animal;
 
 public interface Carnivoro {
 

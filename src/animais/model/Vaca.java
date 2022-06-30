@@ -1,6 +1,9 @@
-package animais;
+package animais.model;
 
-public class Vaca extends Animal implements Herbivoro{
+import animais.model.Animal;
+import animais.util.Herbivoro;
+
+public class Vaca extends Animal implements Herbivoro {
     public Vaca(String nome, String som) {
         super(nome, som);
     }
